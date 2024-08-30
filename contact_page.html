@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact us Page</title>
+    <script>
+        function openNavbar() {
+  const navMenu = document.getElementById("nav-menu");
+  navMenu.classList.toggle("active");
+}
+    </script>
+</head>
+
+<body>
+       
+    <header>
+        <button class="hamburger" id="hamburger-icon">
+            <span onclick="openNavbar()"> ☰</span>
+        </button>
+        <div class="logo">Innovate tech</div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="login.html">login/Sign up</a></li>
+            </ul>
+        </nav>
+        <button class="reachUs-button">Call us</button>
+    </header>
+
+    <section class="banner">
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+            alt="Welcome to our Contact Us page">
+        <h1>Get in Touch With Us</h1>
+        <p>
+          We're here to answer any questions you may have.
+          </p>
+    </section>
+
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Concern/Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            InnovateTech<br>
+            Nidhi Agrawal - Founder and designer of this website<br>
+            Kolar girls hostel<br>
+            Mandakini colony<br>
+            kolar road, 462042<br>
+            Phone: <a href="tel:6262308549">6262308040</a><br>
+            Email: <a href="mailto:nidhiagrawal426530@gmail.com">nidhiagrawal420030@gmail.com</a>
+        </address>
+    </section>
+
+    <footer>
+        <p>
+          &copy; 2024 Innovate Tech  Company. All rights reserved.
+          </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
