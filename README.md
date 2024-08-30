@@ -25,8 +25,7 @@ Installation
 To get started with InnovateTech, follow these steps:
 
 Clone the Repository:
-git clone https://github.com/Nidhi07Btech/E-commerce-website-Project.git
-
+git clone https://github.com/Nidhi07Btech/Project-1-E-Commerce-website.git
 Navigate to the Project Directory:
 cd E-commerce-website-Project
 
@@ -45,7 +44,7 @@ Contributions are welcome! If you would like to contribute to InnovateTech, plea
 Fork the Repository: Click the "Fork" button at the top right of this page.
 Clone Your Fork:
 
-git clone https://github.com/Nidhi07Btech/E-commerce-website-Project.git
+git clone https://github.com/Nidhi07Btech/Project-1-E-Commerce-website.git
 Create a New Branch:
 git checkout -b your-feature-branch
 Commit Your Changes:
